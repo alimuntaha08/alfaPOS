@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-alfa-red: #e31e24;
+  --color-alfa-yellow: #f9ed32;
+  --color-alfa-blue: #0054a6;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+.alfa-gradient {
+  background: linear-gradient(135deg, #e31e24 0%, #b3161b 100%);
+}
+
+.btn-primary {
+  @apply bg-alfa-red text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors shadow-sm;
+}
+
+.btn-secondary {
+  @apply bg-alfa-yellow text-gray-900 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors shadow-sm;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6;
+}
+
+.input-field {
+  @apply w-full px-4 py-2 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-alfa-red/20 focus:border-alfa-red transition-all;
+}
+

@@ -1,0 +1,7 @@
+{
+  "name": "AlfaPOS - Sistem Kasir Alfamart",
+  "description": "Sistem kasir lengkap dengan manajemen stok, scan barcode, membership, dan laporan penjualan.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
